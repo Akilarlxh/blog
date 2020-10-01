@@ -46,7 +46,7 @@
 }
 body{
   background-position: -99999px -99999px;
-  background-image: url(background.png);
+  background-image: url(background.webp);
   background-repeat:no-repeat;
   background-attachment:fixed;
   background-position:top;
@@ -83,58 +83,56 @@ body{overflow-x: hidden;};
     }
 
 @font-face {
-    font-family: 'icomoon';
+    font-family: 'iconfont';
     /* 自行安装第三方字体图标库 */
-    src: url('icomoon.eot');
-    src: url('icomoon.woff') format('woff'),
-    url('icomoon.ttf') format('truetype'),
-    url('icomoon.svg') format('svg');
+    src: url('iconfont.eot');
+    src: url('iconfont.woff') format('woff'),
+    url('iconfont.ttf') format('truetype'),
+    url('iconfont.svg') format('svg');
     font-weight: normal;
     font-style: normal;
 }
   .fa {
     display: inline-block;
     /* 以下的 font 与上面 @font-face 的 font-family 要一致*/
-    font: normal normal normal 14px/1 icomoon;
-    font-size: inherit;
-    text-rendering: auto;
+    font-family: "iconfont" !important;
+    font-size: 16px;
+    font-style: normal;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
-.icon-weibo:before {
-  content: "\e902";
-  color: #fff;
+.icon-QQ:before {
+  content: "\e863";
 }
-.icon-uniE903:before {
-  content: "\e903";
-  color: #fff;
+
+.icon-fangwenliang:before {
+  content: "\e648";
 }
-.icon-steam:before {
-  content: "\e901";
-  color: #fff;
+
+.icon-gw_jianshiqiqiang_0:before {
+  content: "\e724";
 }
-.icon-bilibili-line:before {
-  content: "\e900";
-  color: #fff;
+
+.icon-jingxiang:before {
+  content: "\e617";
 }
-.icon-images:before {
-  content: "\e90e";
+
+.icon-bilibili:before {
+  content: "\e640";
 }
-.icon-play:before {
-  content: "\e912";
+
+.icon-wyy:before {
+  content: "\e601";
 }
-.icon-pacman:before {
-  content: "\e916";
-}
-.icon-mail4:before {
-  content: "\ea86";
-}
+
 .icon-github:before {
-  content: "\eab0";
+  content: "\e600";
 }
-.icon-chrome:before {
-  content: "\ead9";
+
+.icon-gitee-fill-round:before {
+  content: "\e686";
 }
+
 
 meter::-webkit-meter-bar {
 
