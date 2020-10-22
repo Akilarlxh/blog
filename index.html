@@ -147,7 +147,7 @@
         </a>
         <a href="https://akilar.top/categories/%F0%9F%8D%A1Akilar%E3%81%AE%E7%B3%96%E8%91%AB%E8%8A%A6/" data-role="tile" data-cover="https://cdn.jsdelivr.net/gh//Akilarlxh/blog/img/cover2.webp" title="🍡Akilarの糖葫芦：杂谈及教程">
           <span class="branding-bar" style="color: #000000;font-weight: bold">🍡Akilarの糖葫芦</span>
-          <span class="badge-top" style="color: #000000;font-weight: bold">22</span>
+          <span class="badge-top" style="color: #000000;font-weight: bold">23</span>
         </a>
         <a href="https://akilar.top/categories/%F0%9F%8D%A8Akilar%E3%81%AE%E6%A3%89%E8%8A%B1%E7%B3%96/" data-role="tile" data-cover="https://cdn.jsdelivr.net/gh//Akilarlxh/blog/img/cover3.webp" title="🍨Akilarの棉花糖：玩转WIN10">
           <span class="branding-bar" style="color: #000000;font-weight: bold">🍨Akilarの棉花糖</span>
@@ -205,9 +205,15 @@
 
     </div>
     <div id="footer">
+      <p>
+        <a target="_blank" style="   color: #ffffff;" href="https://metroui.org.ua/index.html "><img src="https://img.shields.io/badge/Frame-Metro--UI-blue" alt="框架采用Metro4"></a>
+        &nbsp;<a target="_blank" style="   color: #ffffff;" href="https://metroui.org.ua/index.html "><img src="https://img.shields.io/badge/CDN-jsdelivr-orange" alt="使用Jsdelivr为静态资源提供加速"></a> &nbsp;<a target="_blank" style="   color: #ffffff;"
+          href="https://vercel.com/ "><img src="https://img.shields.io/badge/Hosted-Vervel-brightgreen" alt="网站部署于Vercel"></a>
+        &nbsp;<a target="_blank" style="   color: #ffffff;" href="https://github.com/Akilarlxh/blog "><img src="https://img.shields.io/badge/Github-Akialrlxh-d021d6" alt="主页项目源代码"></a>
+      </p>
 
-      <p>Powered By <a target="_blank" style="   color: #ffffff;" href="https://metroui.org.ua/index.html ">Metro 4</a></p>
-      <p id="running-time"></p>
+
+    <div class="runtime">  <p id="running-time"></p></div>
     </div>
   </div>
 
@@ -246,7 +252,7 @@
       if (second > 0) {
         time[4] = second;
       }
-      currentTimeHtml = '糖果屋已开业' + time[0] + ' 年 ' + time[1] + ' 天 ' + time[2] + ' 时 ' + time[3] + ' 分 ' + time[4] + ' 秒';
+      currentTimeHtml = <img src="https://img.shields.io/badge/CDN-jsdelivr-orange" alt="使用Jsdelivr为静态资源提供加速"> + time[0] + ' 年 ' + time[1] + ' 天 ' + time[2] + ' 时 ' + time[3] + ' 分 ' + time[4] + ' 秒';
       document.getElementById("running-time").innerHTML = currentTimeHtml;
     }, 1000);
   </script>
