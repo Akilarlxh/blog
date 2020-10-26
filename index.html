@@ -206,12 +206,12 @@
     </div>
     <div id="footer">
       <p>
-        <a target="_blank" style="   color: #ffffff;" href="https://metroui.org.ua/index.html "><img src="https://img.shields.io/badge/Frame-Metro--UI-blue" alt="框架采用Metro4"></a>
-        &nbsp;<a target="_blank" style="   color: #ffffff;" href="https://metroui.org.ua/index.html "><img src="https://img.shields.io/badge/CDN-jsdelivr-orange" alt="使用Jsdelivr为静态资源提供加速"></a> &nbsp;<a target="_blank" style="   color: #ffffff;"
-          href="https://vercel.com/ "><img src="https://img.shields.io/badge/Hosted-Vervel-brightgreen" alt="网站部署于Vercel"></a>
-        &nbsp;<a target="_blank" style="   color: #ffffff;" href="https://github.com/Akilarlxh/blog "><img src="https://img.shields.io/badge/Source-Github-d021d6" alt="主页项目源代码"></a>
+        <a target="_blank" style="   color: #ffffff;" href="https://metroui.org.ua/index.html "><img src="https://img.shields.io/badge/Frame-Metro--UI-blue" title="框架采用Metro4"></a>
+        &nbsp;<a target="_blank" style="   color: #ffffff;" href="https://metroui.org.ua/index.html "><img src="https://img.shields.io/badge/CDN-jsdelivr-orange" title="使用Jsdelivr为静态资源提供加速"></a> &nbsp;<a target="_blank" style="   color: #ffffff;"
+          href="https://vercel.com/ "><img src="https://img.shields.io/badge/Hosted-Vervel-brightgreen" title="网站部署于Vercel"></a>
+        &nbsp;<a target="_blank" style="   color: #ffffff;" href="https://github.com/Akilarlxh/blog"><img src="https://img.shields.io/badge/Source-Github-d021d6" title="主页项目源代码"></a>
+        &nbsp;<a target="_blank" style="   color: #ffffff;" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img src="https://img.shields.io/badge/Copyright-BY--NC--SA%204.0-d42328" title="本站点采用知识共享署名-非商业性使用-相同方式共享 4.0 国际许可协议进行许可"></a>
       </p>
-
 
     <div class="runtime">  <p id="running-time"></p></div>
     </div>
@@ -252,7 +252,7 @@
       if (second > 0) {
         time[4] = second;
       }
-      currentTimeHtml = '糖果屋已开业' + time[0] + ' 年 ' + time[1] + ' 天 ' + time[2] + ' 时 ' + time[3] + ' 分 ' + time[4] + ' 秒';
+      currentTimeHtml = '<br><img src="https://img.shields.io/badge/糖果屋-已开业-6adea8" title="距离百年老店也就差不到一百年~"><br>' + time[0] + ' 年 ' + time[1] + ' 天 ' + time[2] + ' 时 ' + time[3] + ' 分 ' + time[4] + ' 秒';
       document.getElementById("running-time").innerHTML = currentTimeHtml;
     }, 1000);
   </script>
