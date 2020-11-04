@@ -114,6 +114,9 @@ html, body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale
 }
+.icon-icon-test:before {
+  content: "\e607";
+}
 .icon-Games-Folder:before {
   content: "\ec21";
 }
