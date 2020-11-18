@@ -136,3 +136,73 @@ meter::-webkit-meter-even-less-good-value {
 .aplayer-icon-menu {
   display: none !important
 }
+
+@font-face {
+  font-family: 'iconfont';
+  src: url('../fonts/iconfont.eot');
+  src: url('../fonts/iconfont.eot?#iefix') format('embedded-opentype'),
+      url('../fonts/iconfont.woff2') format('woff2'),
+      url('../fonts/iconfont.woff') format('woff'),
+      url('../fonts/iconfont.ttf') format('truetype'),
+      url('../fonts/iconfont.svg#iconfont') format('svg');
+}
+
+.fa {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-yanshi:before {
+  content: "\e611";
+}
+
+.icon-demo:before {
+  content: "\e607";
+}
+
+.icon-game:before {
+  content: "\ec21";
+}
+
+.icon-tool:before {
+  content: "\e6c2";
+}
+
+.icon-valine:before {
+  content: "\e694";
+}
+
+.icon-QQ:before {
+  content: "\e863";
+}
+
+.icon-visit:before {
+  content: "\e648";
+}
+
+.icon-status:before {
+  content: "\e724";
+}
+
+.icon-mirror:before {
+  content: "\e617";
+}
+
+.icon-bilibili:before {
+  content: "\e640";
+}
+
+.icon-netease:before {
+  content: "\e601";
+}
+
+.icon-github:before {
+  content: "\e600";
+}
+
+.icon-gitee:before {
+  content: "\e686";
+}
